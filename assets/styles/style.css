@@ -1,0 +1,79 @@
+
+
+body {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size:cover;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow:hidden;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+
+
+
+.background h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+    background-color: orange;
+    display:inline;
+
+}
+
+
+div #romeoimage1 {
+    border: solid;
+    display:flex;
+    width:30vmax;
+    height:30vmax;
+}
+
+.romeoimage1 {
+    border: dashed red;
+    display:center;
+    justify-content:end;
+    width: 30vmax;
+    height: 30vmax;
+    align-self:baseline;
+}
+
+
+div #start-button {
+    display:inline-block;
+    position: relative;
+    width:20vmax;
+    height: 5vmax;
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size:large;
+}
+
+.start-button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+
+}

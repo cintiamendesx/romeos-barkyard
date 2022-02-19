@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
     <title>Romeo's Barkyard</title>
   </head>
  
   <body>
 
-  <section class="background" id="background">
+  <section id="background">
     <h1>Romeo's Barkyard</h1>
 
-    <div class="start-button">
-      <button id="start-button">Start</button> 
+    <div id="start-button">
+      <input type="text" id="input" placeholder="What's your name?" required>
+      <button class="btn btn-lg" onclick="addName()">START</button>
+
     </div>
+
 
     <div class="romeoimage1">
       <img id="romeoimage1" src="assets/images/romeo-1.png"/>
     </div>
+  </section>
 
-
+  <section class="game" id="game"> 
+  <h2> Help Romeo to identify his friend's <b>emotions</b> </h2>]
+  <div class='emotionsFigures'>
+    <img class="angry" src="assets/images/angry-emotion.png">
+    <img class="sleepy" src="assets/images/sleepy-emotion.png">
+    <img class="surprised" src="assets/images/surprised-emotion.png">
+    <img class="upset" src="assets/images/upset-emotion.png">
+  </div>
   </section>
 
     <script src="./assets/scripts/index.js"></script>

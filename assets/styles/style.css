@@ -4,14 +4,15 @@ body {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.background {
+#background {
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-size:100%;
     background-size:cover;
+    background-size: 100%;
     bottom: 0;
     color: black;
     left: 0;
@@ -23,10 +24,7 @@ body {
     top: 0;
 }
 
-
-
-
-.background h1 {
+#background h1 {
     font-size: 50px;
     color: white;
     font-weight: lighter;
@@ -55,7 +53,17 @@ div #romeoimage1 {
 
 div #start-button {
     display:inline-block;
-    position: relative;
+    position: relative
+}
+
+
+.btn {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
     width:20vmax;
     height: 5vmax;
     border: solid #337FED 1px;
@@ -66,14 +74,4 @@ div #start-button {
     border-radius: 20px;
     text-decoration: none;
     font-size:large;
-}
-
-.start-button {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-
-}
+};

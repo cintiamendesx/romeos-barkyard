@@ -1,65 +1,88 @@
 
-
 body {
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#background {
+    font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-size:cover;
-    background-size: 100%;
-    bottom: 0;
-    color: black;
-    left: 0;
-    overflow:hidden;
-    padding: 3em;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    padding-left: 5em;
+    padding-right: 4em;  
 }
 
-#background h1 {
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container h1 {
     font-size: 50px;
     color: white;
     font-weight: lighter;
     background-color: orange;
-    display:inline;
+    align-items: center;
+}
+
+.input {
+    display:inline-block;
+    align-items: center;
+    margin:0;
+}
+
+.container h2 {
+    border: dashed red;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    background-color: orange;
+    align-items: center;
+}
+
+.container h3 {
+    border: dashed red;
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+    background-color: orange;
+    align-items: center;
 
 }
 
 
 div #romeoimage1 {
+    border: dashed green;
     border: solid;
-    display:flex;
-    width:30vmax;
-    height:30vmax;
+    display:grid;
+    width: 30vmax;
+    height: 30vmax;
+
 }
 
 .romeoimage1 {
     border: dashed red;
-    display:center;
-    justify-content:end;
     width: 30vmax;
     height: 30vmax;
-    align-self:baseline;
+    justify-content:end;
+    align-content:flex-end;
+    position: fixed;
+    left: 10pt;
+    bottom: 0pt;
 }
 
 
-div #start-button {
-    display:inline-block;
-    position: relative
+
+#start-button {
+    display: flex;
+    align-items: center;
 }
 
 
 .btn {
     margin: 0;
-    position: absolute;
+    position:fixed;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -74,4 +97,26 @@ div #start-button {
     border-radius: 20px;
     text-decoration: none;
     font-size:large;
-};
+}
+
+.emotionsFigures {
+    border: dashed red;
+
+    width:500px;
+    justify-content:start;
+    align-content:flex-start;
+    right: 100pt;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline-flex;
+    position:absolute;
+  
+    
+}
+
+.emotionsFigures img {
+    border: dashed black;
+    max-height:40%;
+    max-width: 40%;
+}
+

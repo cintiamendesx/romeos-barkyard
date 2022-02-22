@@ -17,13 +17,16 @@ class StartGame {
 };
 
 //3 - Segunda tela - Escolher emoção correta
-class ChooseEmotion {
-    constructor(choice) {
-        this.currentChoice= choice;
+
+
+function removeDisplayNone() {
+    //... your code goes here
+    document.getElementsByClassName("emotion").style.display = "block";
 }
-};
 
 
-
-
-
+const sortImages = document.getElementsByClassName("emotion");
+for (let i = 0; i < emotion.length; i++) {
+  console.log(emotion[i]);
+  emotion[i].addEventListener('click', removeDisplayNone);
+}

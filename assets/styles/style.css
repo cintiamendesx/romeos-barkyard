@@ -120,3 +120,48 @@ div #romeoimage1 {
     max-width: 40%;
 }
 
+
+.emotionsFigures2 {
+    border: dashed red;
+
+    width:500px;
+    justify-content:start;
+    align-content:flex-start;
+    right: 100pt;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline-flex;
+    position:absolute;
+  
+    
+}
+
+.emotionsFigures2 img {
+    border: dashed black;
+    max-height:40%;
+    max-width: 40%;
+}
+
+
+.emotionsFigures3 {
+    border: dashed red;
+
+    width:500px;
+    justify-content:start;
+    align-content:flex-start;
+    right: 100pt;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline-flex;
+    position:absolute;
+  
+    
+}
+
+.emotionsFigures3 img {
+    border: dashed black;
+    max-height:40%;
+    max-width: 40%;
+}
+
+

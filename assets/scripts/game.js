@@ -47,7 +47,7 @@ elems[randomvalue].style.display="inherit";
 
 
 
-emotionsFigures.innerHTML = randomvalue;
+emotionsFigures.innerHTML = elems[randomvalue];
 
 
 

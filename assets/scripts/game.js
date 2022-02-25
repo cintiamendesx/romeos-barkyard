@@ -49,9 +49,8 @@ console.log(round);
 for(let i = 0; i < round.length; i++){
     round[i].style.display="inline"; 
    
-}  if (elems[i].alt === "angry") {
-    emotionSort.innerHTML = ("Who is angry?");
 };
+
 
 
 /*function sortQuestion (round) {

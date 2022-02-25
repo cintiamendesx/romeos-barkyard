@@ -48,9 +48,9 @@ console.log(round);
 
 for(let i = 0; i < round.length; i++){
     round[i].style.display="inline"; 
-    for (round[i].alt === "angry") {
-        emotionSort.innerHTML = ("Who is angry?");
-    }
+   
+}  if (elems[i].alt === "angry") {
+    emotionSort.innerHTML = ("Who is angry?");
 };
 
 
@@ -76,18 +76,6 @@ function round (elems[i]){
     if(angry === )
 
 }
-
-
-/*
-for(var i=0;i<elems.lenght;i++)
-elems[i].style.display="none";
-
-var randomvalue = Math.floor(Math.random() * elems.length);
-elems[randomvalue].style.display="inherit";*/
-
-
-
-emotionsFigures.innerHTML = elems[randomvalue];
 
 
 

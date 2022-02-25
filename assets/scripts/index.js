@@ -12,8 +12,17 @@ function addName(name){
   }
 };
 
+function checkRightAnswer("click"){ 
+  if(checkImageClick = true) {
+    alert(`Be welcome, ${input.value}`);
+    window.location.href="index copy.html"
+  }
+
 function checkForStart() {
 startButton.addEventListener("click")};
+
+function checkImageClick() {
+  emotion.addEventListener("click")};
 
 
 

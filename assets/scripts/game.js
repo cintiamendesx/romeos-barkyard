@@ -19,10 +19,6 @@ class StartGame {
 //3 - Segunda tela - Escolher emoção correta
 
 
-function removeDisplayNone() {
-    //... your code goes here
-    document.getElementsByClassName("emotion").style.display = "block";
-}
 
 
 /*const sortImages = document.getElementsByClassName("emotion");
@@ -38,12 +34,56 @@ for (let i = 0; i < emotion.length; i++) {
        document.getElementsByClassName("emotion").style.display = "block";
     };*/
 
+ 
+const figures1 = document.getElementsByClassName("emotionsFigures");
+const figures2 = document.getElementsByClassName("emotionsFigures2");
+const figures3 = document.getElementsByClassName("emotionsFigures3");
 
-var elems  = [document.getElementsByClassName("emotionsFigures"),document.getElementsByClassName("emotionsFigures2"),document.getElementsByClassName("emotionsFigures3")];
+var elems  = [figures1,figures2,figures3];
+const randomIndex = Math.floor(Math.random() * elems.length)
+
+const round = elems[randomIndex];
+console.log(randomIndex);
+console.log(round);
+
+for(let i = 0; i < round.length; i++){
+    round[i].style.display="inline"; 
+    for (round[i].alt === "angry") {
+        emotionSort.innerHTML = ("Who is angry?");
+    }
+};
+
+
+/*function sortQuestion (round) {
+    for() {
+        style.display="inline";
+    }
+    sortear 
+    elems[1][3].alt angry
+    pergunta e resposta
+    if(angry === )
+/*
+let round
+1 2 3 
+let i = 0 
+function round (elems[i]){
+    for(){
+        style.display="block";
+    }
+    sortear 
+    elems[1][3].alt angry
+    pergunta e resposta
+    if(angry === )
+
+}
+
+
+/*
 for(var i=0;i<elems.lenght;i++)
 elems[i].style.display="none";
+
 var randomvalue = Math.floor(Math.random() * elems.length);
-elems[randomvalue].style.display="inherit";
+elems[randomvalue].style.display="inherit";*/
 
 
 

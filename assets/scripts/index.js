@@ -3,34 +3,40 @@ const startButton = document.getElementById ("btn");
 const name = document.getElementById("input");
 const elements = document.querySelectorAll(".emotion");
 
+console.log(elements)
 
-const question1 = document.getElementsByClassName("question1");
-const question2 = document.getElementsByClassName("question2");
-const question3 = document.getElementsByClassName("question3");
+const question1 = document.querySelector(".question1");
+const question2 = document.querySelector(".question2");
+const question3 = document.querySelector(".question3");
 
-const question = [question1, question2, question3];
 
+const response1 = document.getElementById("angry").innerText;
+const question1_ = {question: question1, answer: response1 }
+const response2 = document.getElementById("sleepy").innerText;
+const question2_ = {question: question2, answer: response2 }
+
+// const question1_array = [question1, response1 ]
+// console.log(question1_array)
+
+const question = [question1_, question2_];
 const randomQuestion = Math.floor(Math.random() * question.length)
 const roundQ =  question[randomQuestion];
 console.log(randomQuestion);
 console.log(roundQ);
-
-for(let i = 0; i < roundQ.length; i++){
-  roundQ[i].style.display="inline"; }
-
-
-
+  roundQ.question.style.display="inline";
   for (var i = 0; i < elements.length; i++)
   elements[i].addEventListener("click", function (event) {
     console.log(event.target.alt); // <-- o texto da imagem que a criança clicou
-
-    if (elements.length.alt[i] === roundQ.length) {
-    alert(`You're amazing, ${input.value}`);
+    console.log(roundQ.answer)
+    if (event.target.alt === roundQ.answer) {
+    alert(`You're amazing`);
     window.location.href = "index copy.html";
     } else {
     alert("keep trying, buddy!");
   }
   });
+
+
 
 function addName(name){
   if((document.getElementById("input").value !="") && (checkForStart)) {

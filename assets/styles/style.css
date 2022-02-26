@@ -33,7 +33,6 @@ body {
 }
 
 .container h2 {
-    border: dashed red;
     font-size: 20px;
     color: white;
     font-weight: lighter;
@@ -42,7 +41,6 @@ body {
 }
 
 .emotionSort h3 {
-    border: dashed red;
     font-size: 30px;
     color: white;
     font-weight: lighter;
@@ -53,8 +51,6 @@ body {
 
 
 div #romeoimage1 {
-    border: dashed green;
-    border: solid;
     display:grid;
     width: 30vmax;
     height: 30vmax;
@@ -62,7 +58,6 @@ div #romeoimage1 {
 }
 
 .romeoimage1 {
-    border: dashed red;
     width: 30vmax;
     height: 30vmax;
     justify-content:end;
@@ -100,8 +95,6 @@ div #romeoimage1 {
 }
 
 .emotionsFigures {
-    border: dashed red;
-
     width:500px;
     justify-content:start;
     align-content:flex-start;
@@ -115,15 +108,12 @@ div #romeoimage1 {
 }
 
 .emotionsFigures img {
-    border: dashed black;
     max-height:40%;
     max-width: 40%;
 }
 
 
 .emotionsFigures2 {
-    border: dashed red;
-
     width:500px;
     justify-content:start;
     align-content:flex-start;
@@ -137,15 +127,12 @@ div #romeoimage1 {
 }
 
 .emotionsFigures2 img {
-    border: dashed black;
     max-height:40%;
     max-width: 40%;
 }
 
 
 .emotionsFigures3 {
-    border: dashed red;
-
     width:500px;
     justify-content:start;
     align-content:flex-start;
@@ -159,7 +146,6 @@ div #romeoimage1 {
 }
 
 .emotionsFigures3 img {
-    border: dashed black;
     max-height:40%;
     max-width: 40%;
 }

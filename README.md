@@ -1,4 +1,4 @@
-# typical-doc
+# Romeo's Barkyard
 Project #1 - The Game
 
 Apresentação:
